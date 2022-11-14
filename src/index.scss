@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+@import "baseStyles/variables";
+@import "baseStyles/reset";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: $bg;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $color-red;
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 390px;
+  max-height: 844px;
+  height: 844px;
+  margin: auto;
+  padding: 24px 16px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
